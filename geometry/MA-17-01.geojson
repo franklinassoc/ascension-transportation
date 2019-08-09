@@ -1,8 +1,8 @@
 {
 "type": "FeatureCollection",
-"name": "street-segment-liines",
+"name": "street-segment-lines",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "fid": null, "PROJECTTYP": "Safety Widening", "PROJECTNO": "MA-17-01" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -90.904288945562001, 30.269543035888805 ], [ -90.903970099024164, 30.247497791100209 ] ] ] } },
+{ "type": "Feature", "properties": { "fid": null, "PROJECTTYP": "Safety Widening", "PROJECTNO": "MA-17-01" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -90.904288945562001, 30.269543035888805 ], [ -90.903970099024164, 30.247497791100209 ] ] ] } }
 ]
 }

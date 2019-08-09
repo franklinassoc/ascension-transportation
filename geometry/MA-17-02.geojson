@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
-"name": "street-segment-liines",
+"name": "street-segment-lines",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "fid": null, "PROJECTTYP": "Safety Widening", "PROJECTNO": "MA-17-02" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -90.903998044402158, 30.247332384527684 ], [ -90.903902385652472, 30.229117855620476 ] ] ] } }
