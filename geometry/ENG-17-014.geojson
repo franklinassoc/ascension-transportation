@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "ENG-17-014",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "OBJECTID": 961, "NAME": "Babin Rd Bridge Replacmenent over Bayou Narcisse", "TYPE": "Transportation", "DESCRIPTIO": null, "STATUS": null, "DESIGN_STA": null, "CONSTRUCTI": null, "PROJECT_LE": null, "PERCENT": null, "CONSTRUC_1": 724939, "DESIGNCOST": 0, "CREATED_US": null, "CREATED_DA": null, "LAST_EDITE": null, "LAST_EDI_1": null, "PROJECTTYP": "New Bridge", "IMAGENAME": "BridgeRepair", "PROGRAMTAS": "11", "PROJECTNO": "ENG-17-014", "DESIGN_FIR": "DOTD", "CONTRACTOR": "DOTD", "CONSTRUC_2": null, "SURVEY_STA": "100", "UTILITY_ST": "100", "GEO_STATUS": "100", "PREDESIGN_": "100", "FINALDESIG": "100", "ROW_STATUS": "100", "CONSTRUC_3": null, "CONCEPT_DA": null, "PREDESIGN1": null, "PERMITS_AC": null, "ROW_ACQUIR": null, "DESIGNCOMP": null, "ROW_COSTS": 0, "UTILITY_RE": 0, "TOTAL_COST": 0.0, "PROGRAM_PH": "Non-IAP", "SHAPE_AREA": 3741.6264290899999, "SHAPE_LEN": 285.85709507899998 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -90.939933186150554, 30.262279640595981 ], [ -90.939741419294137, 30.262113740640626 ], [ -90.939961326151632, 30.26211495997995 ], [ -90.940109169915686, 30.262277777922414 ], [ -90.939933186150554, 30.262279640595981 ] ] ] ] } }
-]
-}

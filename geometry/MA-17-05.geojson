@@ -1,8 +1,8 @@
 {
 "type": "FeatureCollection",
-"name": "MA-17-05",
+"name": "street-segment-liines",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "OBJECTID": 3, "NAME": "Ashland Rd - St Landry Connector 0.5m", "TYPE": "Transportation", "DESCRIPTIO": "New 2 lane roadway connector from St. Landry Ave to Ashland Road.", "STATUS": "Pre-Construction : Ongoing", "DESIGN_STA": "2017\/09\/25", "CONSTRUCTI": "2018\/09\/25", "PROJECT_LE": "0.5 miles", "PERCENT": "5", "CONSTRUC_1": 0, "DESIGNCOST": 274875, "CREATED_US": "ENGINEERING", "CREATED_DA": "2017\/08\/30", "LAST_EDITE": "ENGINEERING", "LAST_EDI_1": "2017\/08\/30", "PROJECTTYP": "New Road", "IMAGENAME": "AshlandStLandry", "PROGRAMTAS": "5", "PROJECTNO": "MA-17-05", "DESIGN_FIR": "Volkert\r\n", "CONTRACTOR": "TBD", "CONSTRUC_2": null, "SURVEY_STA": "100", "UTILITY_ST": "100", "GEO_STATUS": "100", "PREDESIGN_": "100", "FINALDESIG": "100", "ROW_STATUS": "100", "CONSTRUC_3": "0", "CONCEPT_DA": null, "PREDESIGN1": null, "PERMITS_AC": null, "ROW_ACQUIR": null, "DESIGNCOMP": null, "ROW_COSTS": 0, "UTILITY_RE": 0, "TOTAL_COST": 0.0, "PROGRAM_PH": "IAP", "SHAPE_AREA": 258640.33967799999, "SHAPE_LEN": 5603.0640354500001 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -90.962303050703554, 30.202663745499816 ], [ -90.96149156603839, 30.202580691360559 ], [ -90.953812958253124, 30.202730996024933 ], [ -90.953809388502293, 30.202412869118969 ], [ -90.961768092311843, 30.202367076393642 ], [ -90.962303560895435, 30.202335474096255 ], [ -90.962303050703554, 30.202663745499816 ] ] ] ] } }
+{ "type": "Feature", "properties": { "fid": null, "PROJECTTYP": "Safety Widening", "PROJECTNO": "MA-17-05" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -90.962216858813164, 30.202498251758989 ], [ -90.953767844678509, 30.202549869336618 ] ] ] } },
 ]
 }

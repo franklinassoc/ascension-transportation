@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "MA-18-05",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "OBJECTID": 1921, "NAME": "Germany Road\/US 61 Intersection Improvement", "TYPE": "Transportation", "DESCRIPTIO": "Improving the Germany Road intersection leg at US 61 to include left, thru and right turn lanes.", "STATUS": "Pre-Construction : Ongoing", "DESIGN_STA": "2018\/04\/05", "CONSTRUCTI": null, "PROJECT_LE": "0.5 miles", "PERCENT": null, "CONSTRUC_1": 0, "DESIGNCOST": 174260, "CREATED_US": null, "CREATED_DA": null, "LAST_EDITE": null, "LAST_EDI_1": null, "PROJECTTYP": "Turn Lane", "IMAGENAME": null, "PROGRAMTAS": null, "PROJECTNO": "MA-18-05", "DESIGN_FIR": "Evans-Graves", "CONTRACTOR": "TBD", "CONSTRUC_2": null, "SURVEY_STA": "100", "UTILITY_ST": "100", "GEO_STATUS": "100", "PREDESIGN_": "100", "FINALDESIG": "95", "ROW_STATUS": "35", "CONSTRUC_3": "0", "CONCEPT_DA": null, "PREDESIGN1": null, "PERMITS_AC": null, "ROW_ACQUIR": null, "DESIGNCOMP": "2018\/12\/31", "ROW_COSTS": 0, "UTILITY_RE": 0, "TOTAL_COST": 0.0, "PROGRAM_PH": "Non-IAP", "SHAPE_AREA": 17132.675004500001, "SHAPE_LEN": 600.927754929 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -90.954769495176208, 30.284072529943899 ], [ -90.954173725564118, 30.284077427556127 ], [ -90.954169963130155, 30.283846944425438 ], [ -90.954719720091376, 30.28384469253092 ], [ -90.954926563163824, 30.284073796614688 ], [ -90.954769978562382, 30.28407306628819 ], [ -90.954769495176208, 30.284072529943899 ] ] ] ] } }
-]
-}
