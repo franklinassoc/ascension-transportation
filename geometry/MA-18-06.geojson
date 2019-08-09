@@ -4,32 +4,32 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 				{								
-						type:	"Feature,"					
-						properties:	{					
-								PROJECTTYP:	"Safety Widening,"			
-								PROJECTNO:	MA-18-06			
-						"},"						
-						geometry:	{					
-								type:	"LineString,"			
-								coordinates:	[			
+						"type":	"Feature",					
+						"properties":	{					
+								"PROJECTTYP":	"Safety Widening",			
+								"PROJECTNO":	"MA-18-06"			
+						},						
+						"geometry":	{					
+								"type":	"LineString",			
+								"coordinates":	[			
 										[		
-												"-90.94753213072903,"
+												-90.94753213072903,
 												30.3205947
 										],		
 										[		
-												"-90.94750552191948,"
+												-90.94750552191948,
 												30.31902479
 										],		
 										[		
-												"-90.947549857168,"
+												-90.947549857168,
 												30.31883578
 										],		
 										[		
-												"-90.94765952055583,"
+												-90.94765952055583,
 												30.31866588
 										],		
 										[		
-												"-90.94964928480859,"
+												-90.94964928480859,
 												30.31713967
 										]		
 								]				
