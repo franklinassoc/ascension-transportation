@@ -3,6 +3,25 @@
 "name": "street-segment-lines",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "fid": null, "PROJECTTYP": "Safety Widening", "PROJECTNO": "MA-17-04" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -90.905046206050457, 30.31380851623058 ], [ -90.904593843545669, 30.28474604689135 ] ] ] } }
+				{								
+						type:	"Feature,"					
+						properties:	{					
+								PROJECTTYP:	"Safety Widening,"			
+								PROJECTNO:	MA-17-04			
+						"},"						
+						geometry:	{					
+								type:	"LineString,"			
+								coordinates:	[			
+										[		
+												"-90.90504620605046,"
+												30.31380852
+										],		
+										[		
+												"-90.90459384354567,"
+												30.28474605
+										]		
+								]				
+						}						
+				}
 ]
 }
