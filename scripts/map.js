@@ -200,13 +200,6 @@ $(window).on('load', function() {
 	};
 	sidebar.addPanel(panelContent);
 
-	// Title and content for sidebar	
-	map.on('click', function (feature, layer) {
-		sidebar.close(panelID);
-	//	$('#sidebar-title').text("No item selected");
-	//	$('#sidebar-content').text("");
-	});	
-
     // Display table with active points if specified	
     var displayTable = getSetting('_displayTable') == 'on' ? true : false;
 
