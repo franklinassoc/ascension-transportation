@@ -183,9 +183,32 @@ $(window).on('load', function() {
         + getSetting('_pointsLegendIcon') + '"></i></span>');
     }
 
+	// Display sidebar with active item if specified	
+	var sidebar = L.control.sidebar({
+		container: 'sidebar',
+		closeButton: false,
+		position: 'right'
+	}).addTo(map);
+
+	panelID = 'my-info-panel'
+	var panelContent = {
+		id: panelID,                     // UID, used to access the panel
+		tab: '<i class="fa fa-bars active"></i>',  // content can be passed as HTML string,
+		pane: '<p id="sidebar-content"></p>',        // DOM elements can be passed, too
+		title: '<h2 id="sidebar-title"> No state selected</h2>',              // an optional pane header
+		position: 'top'                  // optional vertical alignment, defaults to 'top'
+	};
+	sidebar.addPanel(panelContent);
+
+	map.on('click', function (feature, layer) {
+		sidebar.close(panelID);
+		//$('#sidebar-title').text("No state selected");
+		//$('#sidebar-content').text("");
+	});	
+	
+    // Display table with active points if specified	
     var displayTable = getSetting('_displayTable') == 'on' ? true : false;
 
-    // Display table with active points if specified
     var columns = getSetting('_tableColumns').split(',')
                   .map(Function.prototype.call, String.prototype.trim);
 
@@ -512,7 +535,7 @@ $(window).on('load', function() {
         opacity: 1,
         color: tryPolygonSetting(polygon, '_outlineColor', 'white'),
         dashArray: '3',
-        fillOpacity: tryPolygonSetting(polygon, '_colorOpacity', '0.7'),
+        fillOpacity: tryPolygonSetting(polygon, '_colorOpacity', '1'), // opacity of airline signals
         fillColor: getColor(value)
       }
     }
