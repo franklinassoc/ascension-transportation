@@ -837,7 +837,7 @@ $(window).on('load', function() {
 
           if (p[index]['Description'] && p[index]['Description'] != '') {
            // line.bindPopup(p[index]['Description']);
-			line.bindPopup("<b>" + p[index]['Name'] + '</b><br>' +
+			line.bindPopup("<b>" + p[index]['Display Name'] + '</b><br>' +
           (p[index]['Image'] ? ('<img src="' + p[index]['Image'] + '"><br>') : '') +
           p[index]['Description']);
           }
