@@ -22,7 +22,7 @@ $(window).on('load', function() {
     });
   }
 
-
+  
   /**
    * Sets the map view so that all markers are visible, or
    * to specified (lat, lon) and zoom if all three are specified
@@ -94,6 +94,7 @@ $(window).on('load', function() {
     return layers;
   }
 
+  
   /**
    * Assigns points to appropriate layers and clusters them if needed
    */
@@ -183,22 +184,6 @@ $(window).on('load', function() {
         + getSetting('_pointsLegendIcon') + '"></i></span>');
     }
 
-	// Display sidebar with active item if specified	
-	var sidebar = L.control.sidebar({
-		container: 'sidebar',
-		closeButton: false,
-		position: 'right'
-	}).addTo(map);
-
-	panelID = 'my-info-panel'
-	var panelContent = {
-		id: panelID,                     // UID, used to access the panel
-		tab: '<i class="fa fa-bars active"></i>',  // content can be passed as HTML string,
-		pane: '<p id="sidebar-content"></p>',        // DOM elements can be passed, too
-		title: '<h2 id="sidebar-title"> No item selected</h2>',      // an optional pane header
-		position: 'top'                  // optional vertical alignment, defaults to 'top'
-	};
-	sidebar.addPanel(panelContent);
 
     // Display table with active points if specified	
     var displayTable = getSetting('_displayTable') == 'on' ? true : false;
@@ -828,9 +813,9 @@ $(window).on('load', function() {
             color: (p[index]['Color'] == '') ? 'grey' : p[index]['Color'],
             weight: trySetting('_polylinesWeight', 2),
           }).addTo(map);
-
+		  
+           // Add polyline info and Image to popup, just like points.
           if (p[index]['Description'] && p[index]['Description'] != '') {
-           // line.bindPopup(p[index]['Description']);
 			line.bindPopup("<b>" + p[index]['Display Name'] + '</b><br>' +
           (p[index]['Image'] ? ('<img src="' + p[index]['Image'] + '"><br>') : '') +
           p[index]['Description']);
