@@ -202,9 +202,17 @@ $(window).on('load', function() {
 
 	map.on('click', function (feature, layer) {
 		sidebar.close(panelID);
-		//$('#sidebar-title').text("No state selected");
+		//$('#sidebar-title').text("No item selected");
 		//$('#sidebar-content').text("");
 	});	
+
+    // get text for sidebar from polyline feature
+	click: function(e) {
+                    L.DomEvent.stopPropagation(e); 
+                	$('#sidebar-title').text(e.target.features.properties.PROJECTNO);
+					$('#sidebar-content').text(e.target.features.properties.NARRATIVE);
+					sidebar.open(panelID);
+                }
 	
     // Display table with active points if specified	
     var displayTable = getSetting('_displayTable') == 'on' ? true : false;
