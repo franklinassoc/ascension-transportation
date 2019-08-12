@@ -836,7 +836,10 @@ $(window).on('load', function() {
           }).addTo(map);
 
           if (p[index]['Description'] && p[index]['Description'] != '') {
-            line.bindPopup(p[index]['Description']);
+           // line.bindPopup(p[index]['Description']);
+			line.bindPopup("<b>" + p[index]['Name'] + '</b><br>' +
+          (p[index]['Image'] ? ('<img src="' + p[index]['Image'] + '"><br>') : '') +
+          p[index]['Description']);
           }
 
           polylinesLegend.addOverlay(line,
