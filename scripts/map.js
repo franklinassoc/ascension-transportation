@@ -195,25 +195,18 @@ $(window).on('load', function() {
 		id: panelID,                     // UID, used to access the panel
 		tab: '<i class="fa fa-bars active"></i>',  // content can be passed as HTML string,
 		pane: '<p id="sidebar-content"></p>',        // DOM elements can be passed, too
-		title: '<h2 id="sidebar-title"> No state selected</h2>',              // an optional pane header
+		title: '<h2 id="sidebar-title"> No item selected</h2>',      // an optional pane header
 		position: 'top'                  // optional vertical alignment, defaults to 'top'
 	};
 	sidebar.addPanel(panelContent);
 
+	// Title and content for sidebar	
 	map.on('click', function (feature, layer) {
 		sidebar.close(panelID);
-		//$('#sidebar-title').text("No item selected");
-		//$('#sidebar-content').text("");
+		$('#sidebar-title').text("No item selected");
+		$('#sidebar-content').text("");
 	});	
 
-    // get text for sidebar from polyline feature
-	click: function(e) {
-                    L.DomEvent.stopPropagation(e); 
-                	$('#sidebar-title').text(e.target.features.properties.PROJECTNO);
-					$('#sidebar-content').text(e.target.features.properties.NARRATIVE);
-					sidebar.open(panelID);
-                }
-	
     // Display table with active points if specified	
     var displayTable = getSetting('_displayTable') == 'on' ? true : false;
 
