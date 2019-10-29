@@ -934,9 +934,6 @@ $(window).on('load', function() {
     L.tileLayer.provider(basemap2, {
       maxZoom: 18
     }).addTo(map);
-    L.control.attribution({
-      position: trySetting('_mapAttribution2', 'bottomright')
-    }).addTo(map);
   }
 
   /**
