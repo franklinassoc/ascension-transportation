@@ -930,7 +930,7 @@ $(window).on('load', function() {
     L.control.attribution({
       position: trySetting('_mapAttribution', 'bottomright')
     }).addTo(map);
-	    var basemap2 = trySetting('_tileProvider2', 'Stame.TonerHybrid');
+	    var basemap2 = trySetting('_tileProvider2', 'Stamen.TonerHybrid');
     L.tileLayer.provider(basemap2, {
       maxZoom: 18
     }).addTo(map);
