@@ -16,6 +16,7 @@ var constants = {
 	_githubRepo: 'Author Code Repo',
 	// Map Settings
 	_tileProvider: 'Basemap Tiles',
+	_tileProvider2: 'Basemap Tile Layer2',
 	_markercluster: 'Cluster Markers',
   _introPopupText: 'Intro Popup Text',
   _initZoom: 'Initial Zoom',
