@@ -128,6 +128,7 @@ $(window).on('load', function() {
       if (point.Latitude !== '' && point.Longitude !== '') {
         var marker = L.marker([point.Latitude, point.Longitude], {icon: icon})
           .bindPopup("<b>" + point['Name'] + '</b><br>' +
+		  p[index]['Proj_No'] + '<br>' +
           (point['Image'] ? ('<img src="' + point['Image'] + '"><br>') : '') +
           point['Description']);
 
@@ -817,6 +818,7 @@ $(window).on('load', function() {
            // Add polyline info and Image to popup, just like points.
           if (p[index]['Description'] && p[index]['Description'] != '') {
 			line.bindPopup("<b>" + p[index]['Display Name'] + '</b><br>' +
+			p[index]['Proj_No'] + '<br>' +
           (p[index]['Image'] ? ('<img src="' + p[index]['Image'] + '"><br>') : '') +
           p[index]['Description']);
           }
