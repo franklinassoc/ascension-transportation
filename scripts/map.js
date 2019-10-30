@@ -816,14 +816,14 @@ $(window).on('load', function() {
 		  
            // Add polyline info and Image to popup, just like points.
           if (p[index]['Description'] && p[index]['Description'] != '') {
-			line.bindPopup("<b>" + p[index]['Display Name'] + '</b><br>' +
+			line.bindPopup("<b>" + p[index]['Name'] + '</b><br>' +
           (p[index]['Image'] ? ('<img src="' + p[index]['Image'] + '"><br>') : '') +
           p[index]['Description']);
           }
 
           polylinesLegend.addOverlay(line,
             '<i class="color-line" style="background-color:' + p[index]['Color']
-            + '"></i> ' + p[index]['Display Name']);
+            + '"></i> ' + p[index]['Name']);
 
           if (index == 0) {
             if (polylinesLegend._container) {
