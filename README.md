@@ -1,11 +1,10 @@
 # Leaflet Maps with Google Sheets
 Customize Leaflet maps with a linked Google Sheets template and GeoJSON data on GitHub
 
-![Preview](preview.jpg)
 
 ## Live links (replace with your own)
 - Ascension Leaflet Map https://franklinassoc.github.io/ascension-transportation/
-- Google Sheets source: Ascension - Leaflet Maps with Google Sheets v1.1.2 https://docs.google.com/spreadsheets/d/1ct_P6HyAiMwYxb1n0lm7cOOojVT-G3BT8rXZgrvje_E/edit#gid=0
+- Google Sheets source: Ascension - Leaflet Maps with Google Sheets v1.1.2 https://docs.google.com/spreadsheets/d/1EgQA2K5nJbCKXP3WugnZ_zUI8QU4xHqafDyxNTWf2bw/edit#gid=282680176
 
 ## Create your own
 - See video with step-by-step tutorial in *Data Visualization for All* https://datavizforall.org/leaflet-maps-with-google-sheets.html
