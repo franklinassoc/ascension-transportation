@@ -1,38 +1,8 @@
 {
-    "type": "FeatureCollection",
-    "features": [{
-        "type": "Feature",
-        "properties": {
-            "NAME": "LA 30 TO BUZZARD ROOST CONNECTOR",
-            "PROJECTNO": "MA-21-01",
-            "shape": "Line",
-            "name": "Unnamed Layer",
-            "category": "default"
-        },
-        "geometry": {
-            "type": "MultiLineString",
-            "coordinates": [
-                [
-                    [-90.96957, 30.210514],
-                    [-90.970069, 30.225312]
-                ]
-            ]
-        },
-        "id": "89d9ddab-dd20-47e0-b359-f074f31f4aab"
-    }, {
-        "type": "Feature",
-        "properties": {
-            "shape": "Line",
-            "name": "Unnamed Layer",
-            "category": "default"
-        },
-        "geometry": {
-            "type": "LineString",
-            "coordinates": [
-                [-90.970557, 30.225301],
-                [-90.969569, 30.225324]
-            ]
-        },
-        "id": "0401b3db-a6dc-4350-9968-c1d0f9d60d87"
-    }]
+"type": "FeatureCollection",
+"name": "MA-21-01",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "NAME": "LA 30 TO BUZZARD ROOST CONNECTOR", "PROJECTNO": "MA-21-01" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -90.969344325717046, 30.210661552443383 ], [ -90.97044761899069, 30.225268705773569 ] ] ] } }
+]
 }
